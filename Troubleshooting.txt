@@ -1,0 +1,6 @@
+Things to do if you can't get CheckConfigurationTests.checkConfig to run
+    - Ensure Firefox installed
+    - Ensure Firefox version 46 or less and updates disabled
+    - Ensure Firefox is 32-bit and installed to C:\Program Files (x86)\Mozilla Firefox
+    - Ensure Maven dependencies imported correctly
+
