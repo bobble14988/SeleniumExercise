@@ -8,7 +8,7 @@ public class Ten10Driver {
   private static WebDriver driver = null;
 
   public static WebDriver getInstance() {
-    if (driver == null) {
+    if (driver == null || driver.toString().contains("(null)")) {
       driver = new FirefoxDriver();
     }
 
